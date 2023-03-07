@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    position: relative;
+    height: 600px;
+}
+
+div{
+    background-color: #ccc;
+    padding: 20px;
+    width: 600px;
+    margin: 100px auto;
+    position: relative;
+}
+
+.arrow::before{
+    position: absolute;
+    content: "";
+    border: 20px solid;
+    border-color: red green black blue;
+}
+
+.top::before{
+    top: -40px;
+    left: 50%;
+    margin-left: -20px;
+    border-color: transparent transparent #ccc transparent;
+}
+
+.right::before{
+    right: -40px;
+    top: 50%;
+    margin-top: -20px;
+    border-color: transparent transparent transparent #ccc;
+}
+
+.bottom::before{
+    left: 50%;
+    margin-left: -20px;
+    bottom: -40px;
+    border-color: #ccc transparent transparent transparent;
+}
+
+.left::before{
+    left: -40px;
+    top: 50%;
+    margin-top: -20px;
+    border-color: transparent #ccc transparent transparent;
+}

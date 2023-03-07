@@ -1,0 +1,49 @@
+.parent{
+    width: 400px;
+    margin: 20px auto;
+}
+.html{
+    background-color: #eee;
+    padding: 15px;
+    font-family: sans-serif;
+    list-style: none;
+}
+.one,
+.two,
+.three{
+    margin: 5px;
+    background-color: white;
+    padding: 5px;
+}
+
+.css{
+    margin: 30px 0;
+    background-color: #eee;
+    list-style: none;
+    padding: 15px;
+    font-family: sans-serif;
+}
+.a,
+.b,
+.c{
+    margin: 5px;
+    background-color: white;
+    padding: 5px;
+    list-style: upper-roman;
+}
+
+.js{
+    margin: 30px 0;
+    background-color: #eee;
+    list-style: none;
+    padding: 15px;
+    font-family: sans-serif;
+}
+.v,
+.vv{
+    margin: 5px;
+    background-color: white;
+    padding: 5px;
+    list-style-position: inside;
+    margin-left: -40px;
+}

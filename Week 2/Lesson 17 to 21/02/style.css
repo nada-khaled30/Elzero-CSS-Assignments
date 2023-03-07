@@ -1,0 +1,17 @@
+.one{
+    text-transform: uppercase;
+    margin: 5px auto;
+    font-size: 40px;
+}
+
+.two{
+    text-transform: capitalize;
+    margin: 5px auto;
+    font-size: 40px;
+}
+
+.three{
+    text-transform: lowercase;
+    margin: 5px auto;
+    font-size: 40px;
+}

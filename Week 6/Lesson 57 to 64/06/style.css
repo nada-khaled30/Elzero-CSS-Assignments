@@ -1,0 +1,109 @@
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.layer{
+    background-color: #eee;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat( 4 , 1fr);
+    grid-template-rows: repeat( 13 , 1fr);
+    gap: 10px 10px;
+}
+
+.layer div{
+    background-color: white;
+    padding: 20px;
+    position: relative;
+}
+
+.layer .shady,
+.layer .mahmoud,
+.layer .ibrahim{
+    background-color: black;
+    color: white;
+}
+
+.osama{
+    grid-column: 1/3;
+    grid-row: 1/4;
+}
+
+.ahmed{
+    grid-column: 3/4;
+    grid-row: 1/4;
+}
+
+.shady{
+    grid-column: 4/5;
+    grid-row: 1/12;
+}
+
+.mohamed{
+    grid-column: 1/2;
+    grid-row: 4/12;
+}
+
+.mahmoud{
+    grid-column: 2/4;
+    grid-row: 4/8;
+}
+
+.ezz{
+    grid-column: 2/4;
+    grid-row: 8/12;
+}
+
+.mohamedsayed{
+    grid-column: 1/2;
+    grid-row: 12/14;
+}
+
+.ibrahim{
+    grid-column: 2/3;
+    grid-row: 12/14;
+}
+
+.gamal{
+    grid-column: 3/4;
+    grid-row: 12/14;
+}
+
+.eman{
+    grid-column: 4/5;
+    grid-row: 12/14;
+}
+
+h5{
+    opacity: 50%;
+    margin-bottom: 10px;
+}
+
+h4{
+    margin-bottom: 10px;
+}
+
+.layer div::before{
+    content: "";
+    position: absolute;
+    height: 3px;
+    width: 100%;
+    background-color: orangered;
+    left: 0;
+    bottom: 0;
+}
+
+.layer div::after{
+    content: " '' ";
+    color: #ccc;
+    position: absolute;
+    right: 15px;
+    bottom: -20px;
+    font-size: 65px;
+    transform: rotate(10deg);
+}

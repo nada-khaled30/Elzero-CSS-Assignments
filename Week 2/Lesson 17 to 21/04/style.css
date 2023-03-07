@@ -1,0 +1,14 @@
+a{
+    padding: 25px;
+    display: block;
+    margin: 20px auto;
+    background-color: #009688;
+    color: white;
+    border-bottom: 10px solid #00514a;
+    width: fit-content;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-size: 40px;
+    font-weight: bold;
+
+}

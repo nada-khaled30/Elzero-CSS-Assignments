@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.box-one{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0 50px;
+}
+
+.box-one div{
+    border: 1px solid black;
+    padding: 10px 20px;
+    margin: 5px;
+    width: 100%;
+    text-align: center;
+}
+
+@media(min-width:992px){
+    .box-one div{
+        width: calc((100% - 40px) / 4);
+    }
+    .box-one div h3{
+        color: #189e92;
+    }
+}
+
+@media (min-width:757px) and (max-width:991px) {
+    .box-one div{
+        width: calc((100% - 20px) / 2);
+    }
+    .box-one div h3{
+        color: red;
+    }
+}
+

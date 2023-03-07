@@ -1,0 +1,61 @@
+:root{
+    --maincolor:#ccc;
+    --margin:10px;
+    --padding:10px;
+    font-family: sans-serif;
+}
+
+.page{
+    background-color: #eee;
+    overflow: hidden;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.links,
+.logo{
+    background-color: var(--maincolor);
+    margin: var(--margin);
+    padding: var(--padding);
+    width: calc(100% / 5);
+    display: flex;
+    justify-content: center;
+}
+
+.links{
+    justify-content: flex-end;
+    list-style-type: none;
+    flex-grow: 1;
+}
+
+.links li{
+    padding-left: 20px;
+}
+
+.main-area{
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-area div{
+    background-color: var(--maincolor);
+    margin: var(--margin);
+    padding: var(--padding);
+    height: 350px;
+    width: calc(100% / 4);
+}
+
+.content{
+    width: 70% !important;
+}
+
+.page .footer{
+    background-color: var(--maincolor);
+    display: flex;
+    justify-content: space-between;
+    margin: var(--margin);
+    padding: var(--padding);
+}
